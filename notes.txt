@@ -18,3 +18,12 @@ Structural Directives
 NOTE - 
 
 You can't place more than one Structural Directives on same element i.e. *ngIf & *ngFor
+
+In TS, private property specifier makes property of the class & assigns the value to property
+
+
+Directives also have component life cycle hook. it has oninit, it doesn't have on destroy but it won't have 
+onafterViewInit as directive doesn't have template
+
+
+selector in directive.ts is '[]'. i.e. it is attribute in html tag
