@@ -38,6 +38,21 @@ Angular is not limited to running in the browser. it also works with service wor
 So if u try to change the DOM as in with basic highlight by directly accessing the native element & the style of this element
 u might get some error in some cases.
 
-It is a better practice to use render a DOM access & renderer. 
+It is a better practice to use render a DOM access & renderer.
+
+
+
+
+
+Behind the structural directives, 
+*ngIf - there is only property binding or event binding or two way data binding.
+
+It becomes
+
+<ng-template>
+    <div [ngIf]="">
+    </div>
+</ng-template>
+
 
 
