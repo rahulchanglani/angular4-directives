@@ -1,0 +1,14 @@
+Attribute Directives 
+
+- They sit on elements just like attributes. 
+- Eg : ngStyle, ngColor
+- Property and event binding (normal HTML attribute)
+- Change the properties or element they are added to.
+
+
+Structural Directives 
+
+- They sit on elements just like attributes, but they also change the structure of the DOM.
+- Eg : *ngIf, *ngFor
+- leads with * (normal HTML attribute)
+- Affect the whole area in the DOM
