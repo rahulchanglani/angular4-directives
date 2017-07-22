@@ -14,6 +14,12 @@ Structural Directives
 - Affect the whole area in the DOM
 
 
+To create directive angular cli -
+
+ng g d basic-highlight/basic-highlight --spec false
+ng g directive better-highlight/better-highlight --spec false
+
+
 
 NOTE - 
 
@@ -25,5 +31,13 @@ In TS, private property specifier makes property of the class & assigns the valu
 Directives also have component life cycle hook. it has oninit, it doesn't have on destroy but it won't have 
 onafterViewInit as directive doesn't have template
 
-
 selector in directive.ts is '[]'. i.e. it is attribute in html tag
+
+
+Angular is not limited to running in the browser. it also works with service workers. these are environments where u might not have access to DOM.
+So if u try to change the DOM as in with basic highlight by directly accessing the native element & the style of this element
+u might get some error in some cases.
+
+It is a better practice to use render a DOM access & renderer. 
+
+
