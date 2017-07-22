@@ -12,3 +12,9 @@ Structural Directives
 - Eg : *ngIf, *ngFor
 - leads with * (normal HTML attribute)
 - Affect the whole area in the DOM
+
+
+
+NOTE - 
+
+You can't place more than one Structural Directives on same element i.e. *ngIf & *ngFor
