@@ -56,3 +56,6 @@ It becomes
 
 
 
+So instead of using !important in [ngStyle] I use the following way to make it work:
+
+[attr.style]="'background-color:red !important'"
